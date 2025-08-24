@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Piedra&family=Varela+Round&display=swap');
+body{
+    background-color:aquamarine;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:78px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width: 68px;
+    padding:0 8px;
+    height:64px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.container{
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    font-family:"Varela Round", sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 1440px;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("Music.jpg") ;
+    height:10px;
+    width: 1410px;
+
+}
+.bottom{
+    position:sticky;
+    height:50px;
+    background-color: black;
+    color: white;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon i{
+    cursor:pointer;
+}
+
+#myProgressBar{
+    width:90vw;
+}
+
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+   width: 690px;
+    color:black;
+    justify-content:space-evenly;
+    border-radius: 150px;
+
+}
+
+.SongItem img{
+    width:90px;
+    height:40px;
+    margin: 5px;
+    padding:0px;
+    border-radius:50px;
+ 
+}
+
+.timestamp{
+    margin:0 23px;
+}
+
+.SongItem{
+    
+}
+
+
